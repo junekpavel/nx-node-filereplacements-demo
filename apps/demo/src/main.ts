@@ -1,1 +1,3 @@
-console.log('Hello World!');
+import { environment } from './environments/environment';
+
+console.log(environment.production);
